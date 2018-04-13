@@ -1,0 +1,22 @@
+{
+  "name": "p2p-connect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsolate/p2p-connect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devsolate/p2p-connect/issues"
+  },
+  "homepage": "https://github.com/devsolate/p2p-connect#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
