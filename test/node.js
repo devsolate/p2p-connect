@@ -1,10 +1,10 @@
 'use strict'
 
-const Node = require('../lib/node')
+const { P2PNode } = require('../index')
 const host = 'http://localhost:3000'
 
 const start = async() => {
-    const node = new Node(host)
+    const node = new P2PNode(host)
     await node.start()
 
     node.subscribe('new', (result) => {

@@ -1,4 +1,4 @@
 'use strict'
 
-const p2pServer = require('../lib/server')
-const app = p2pServer.create(3000, './node.db')
+const { P2PServer } = require('../index')
+const app = P2PServer(3000, './node.db')
